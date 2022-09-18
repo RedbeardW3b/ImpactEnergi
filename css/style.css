@@ -574,3 +574,10 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.certifications {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 25px
+}
