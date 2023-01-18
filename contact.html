@@ -152,8 +152,50 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 contact-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 ps-lg-0">
+                        <h2 class="text-primary">Let's Get Started</h2>
+                        <!-- Formspree start -->
+                        <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/mvongqyy" method="post" class="contact-text">
+                            <fieldset id="fs-frm-inputs">
+                                <label for="full-name">Full Name</label>
+                                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                                <label for="phone">Phone Number</label>
+                                <input type="phone" name="phone" id="phone" placeholder="(555) 555-5555" required="">
+                                <label for="email-address">Email Address</label>
+                                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+                                <fieldset id="fs-frm-selects">
+                                    <label for="res-or-biz">1. Are you a Residential or Commerical/Industrial client?</label>
+                                    <select name="res-or-biz" id="res-or-biz" required="">
+                                        <option value="" selected="" disabled="">Choose</option>
+                                        <option value="1">Residential</option>
+                                        <option value="3">Commercial/Industrial</option>
+                                    </select>
+                                    <label for="ownership">2. Do you own your home or property?</label>
+                                    <select name="ownership" id="ownership" required="">
+                                        <option value="" selected="" disabled="">Choose</option>
+                                        <option value="1">Yes</option>
+                                        <option value="3">No</option>
+                                    </select>
+                                    <label for="timely">3. Is your credit score over 550?</label>
+                                    <select name="creditscore" id="creditscore" required="">
+                                        <option value="" selected="" disabled="">Choose</option>
+                                        <option value="1">Yes</option>
+                                        <option value="3">No</option>
+                                        <option value="5">I'm a business</option>
+                                    </select>
+                                </fieldset>
+                                <label for="message">Additional Comments</label>
+                                <textarea rows="3" name="message" id="message" placeholder="Notes" required=""></textarea>
+                                <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+                            </fieldset>
+                            <input type="submit" value="Send" class="contact-submit-button"  style="background-color: #32C36C; color:black";>
+                        </form>
+                     </div>
+</div>
+</div>
+</div>   
+                        <!-- Formspree End -->
 <!-- Begin/Continue Mailchimp Signup Form -->
-<div id="mc_embed_signup">
+<!-- <div id="mc_embed_signup">
     <form
         action="https://goimpactinvestments.us17.list-manage.com/subscribe/post?u=915f0a6d58052c615c17e6549&amp;id=d6e5e4a626&amp;f_id=00be46e0f0"
         method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
@@ -213,9 +255,9 @@
             <div id="mce-responses" class="clear foot">
                 <div class="response" id="mce-error-response" style="display:none"></div>
                 <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
+            </div> -->
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+            <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                     name="b_915f0a6d58052c615c17e6549_d6e5e4a626" tabindex="-1" value=""></div>
             <div class="optionalParent">
                 <div class="clear foot">
@@ -223,10 +265,10 @@
                     <p class="brandingLogo"><a href="http://eepurl.com/h9lTCb"
                             title="Mailchimp - email marketing made easy and fun"><img
                                 src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a>
-                    </p>
+                    </p> -->
                     <!-- <small class="fa fa-phone-alt text-primary me-2"></small>
                     <small>(480) 791-9214</small> -->
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>1-877-336-6680</p>
+                    <!-- <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>1-877-336-6680</p>
                     <br>
                     <p class="mb-2"><i class="fa fa-envelope text-primary me-3">
                     </i>info@impactenergi.com</p>
@@ -244,13 +286,10 @@
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script
-    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[6] = 'FIRSTLAST'; ftypes[6] = 'text'; fnames[7] = 'OWN'; ftypes[7] = 'radio'; fnames[8] = 'CREDIT'; ftypes[8] = 'radio'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[6] = 'FIRSTLAST'; ftypes[6] = 'text'; fnames[7] = 'OWN'; ftypes[7] = 'radio'; fnames[8] = 'CREDIT'; ftypes[8] = 'radio'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script> -->
 <!--End mc_embed_signup-->
 <!-- Contact End -->
-</div>
-</form>
-</div>
-</div>
+
 
 </div>
 </div>
