@@ -221,8 +221,8 @@
     background-size: cover;
 }
 
-.page-header-pr {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/prbeach.jpg) center center no-repeat;
+.page-header-3 {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(..\img\prbeach.jpg) center center no-repeat;
     background-size: cover;
 }
 
