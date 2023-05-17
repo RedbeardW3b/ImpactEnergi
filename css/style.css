@@ -730,3 +730,8 @@ margin: 25px
     display: table;
     margin: 0 auto;
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: 23vw;
+}
