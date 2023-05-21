@@ -733,10 +733,10 @@ margin: 25px
 
 .img-team {
     max-width: 100%;
-    height: 40vh;
+    height: 45vh;
 }
 
-@media screen and (max-height: 650px){
+@media screen and (max-height: 600px){
 .img-team {
     max-width: 100%;
     height: 35vh;
