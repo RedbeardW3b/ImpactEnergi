@@ -827,7 +827,7 @@ margin: 25px
 .equal-dimensions-thumbnail {
     width: 100%;
     /* Set the desired width */
-    height: 40px;
+    height: 80px;
     /* Set the desired height */
     object-fit: cover;
     /* Maintain aspect ratio and cover the container */
